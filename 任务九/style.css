@@ -1,0 +1,161 @@
+/*title*/
+.title{
+	height: 56px;
+	width: 100%;
+	background-color: #2189BF;
+}
+.logo{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.search-bar input{
+	margin-top: 14px;
+	height: 28px;
+	width: 313px;
+	border-radius: 28px;
+	margin-right: 20px;
+	text-indent: 40px;
+	background: #FFF url(img/search.jpg) no-repeat 18px center;
+}
+.login{
+	color: #FFF;
+	line-height: 56px;
+	font-size: 12px;
+	margin-right: 100px;
+	text-indent: 18px;
+	background: url(img/login.jpg) no-repeat left center;
+}
+
+/*mainbody*/
+.user{
+	width: 260px;
+	background-color: #2B2E3D;
+	height: 1000px;
+}
+.user-info{
+	height: 150px;
+}
+.user-info .head{
+	font-size: 16px;
+	margin-top: 18px;
+	margin-bottom: 24px;
+}
+.user-info .head img{
+	height: 47px;
+	width: 47px;
+	border-radius: 50%;
+	margin-left: 45px;
+	cursor: pointer;
+}
+.user-info .head a{
+	color: #FFF;
+	vertical-align: middle;
+	line-height: 47px;
+	display: inline-block;
+	margin-left: 16px;
+}
+.fans{
+	margin: 0 auto;
+}
+.fans a{
+	display: block;
+	color: #6D8095;
+	font-family: "黑体";
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+}
+.fans .sc{
+	margin-left: 60px;
+	padding-right: 30px;
+	border-right: 2px solid  #313545;
+}
+.fans .fs{
+	margin-right: 60px;
+}
+/*用户信息结束*/
+.main-list ul li{
+	color: #6D8095;
+	font-family: "黑体";
+	font-size: 12px;
+	line-height: 48px;
+	text-indent: 24px;
+	cursor: pointer;
+	padding-left: 48px;
+}
+.main-list ul li:hover{
+	background-color: #393E4E;
+	color: #EDEDEF;
+}
+.main-list ul li i{
+	display: inline-block;
+	height: 14px;
+	width: 12px;
+	padding-right: 12px;
+	vertical-align: middle;
+}
+.main-list ul li .grsc,
+.main-list ul li .tk,
+.main-list ul li .czjl{
+	background:  url(img/u-icon.png) no-repeat -10px -54px;
+}
+.main-list ul li .wdfx{
+	background:  url(img/u-icon.png) no-repeat -10px -33px;
+
+}
+.main-list ul li .zhxx{
+	background:  url(img/u-icon.png) no-repeat -10px -11px;
+
+}
+.main-list ul li .grbb{
+	background:  url(img/user-table.png) no-repeat left center;
+
+}
+/*主菜单结束*/
+.main-list ul li .list-son li{
+	line-height: 30px;
+	padding-left: 24px;
+
+}
+.main-list ul li .list-son li i{
+	background: url(img/list-icon.png) no-repeat -10px -10px;
+	vertical-align: middle;
+}
+.main-list ul li .list-son .selected i:not([class='wjj']){
+		background: url(img/list-icon.png) no-repeat -10px -40px;
+}
+.main-list ul li .list-son li .wjj {
+	background: url(img/list-icon.png) no-repeat -10px -59px;
+	padding-right: 5px;
+}
+.main-list ul li .list-son-son li{
+	text-indent: 40px;
+	background: url(img/st2.jpg) no-repeat 48px center;
+}
+/*左侧列表结束*/
+
+.content{
+	width: 100%;
+	padding-left: 260px;
+}
+.content .nav{
+	height: 32px;
+	padding-left: 30px;
+	font-size: 12px;
+	font-family: "黑体";
+
+}
+.content .nav a,
+.content .nav i{
+	font-style: normal;
+	line-height: 32px;
+	padding: 0 3px;
+	color: #AAAAA9;
+}
+.content .nav .now{
+	color: #6898C1;
+}
+.content .display-area{
+	height: 1000px;
+	background-color: #EDEDEC;
+}
